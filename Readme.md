@@ -2,7 +2,9 @@
 
 该段代码的作用是根据花舞攻略组发布的在线文档中记录的auto作业，生成一个一图流的auto作业汇总excel表格。如下图所示，该表格通过图片的方式可以挂在公告中，极大方便了auto作业的查阅和自行分刀的需求。
 
-![image-20210720111643763](https://raw.githubusercontent.com/yuukireina05/picture-repository/main/image-20210720111643763.png)
+其中编号带中括号的表示该刀型为半auto刀（从文档中读取出来的，若无"半auto"则默认为auto刀）
+
+![image-20210720112745500](https://raw.githubusercontent.com/yuukireina05/picture-repository/main/image-20210720112745500.png)
 
 **使用方法：**
 
