@@ -10,7 +10,7 @@ Jinja2
 import pandas as pd
 import numpy as np
 
-Filename = '三阶段作业收集 (4).xlsx'
+Filename = '一阶段作业收集.xlsx'
 
 df = pd.read_excel(Filename)
 
@@ -31,6 +31,11 @@ for row in range(auto2.shape[0]):
 #             print(type(auto2.iloc[row,column]))
             if type(auto2.iloc[row,column]) == str:
                 if '半auto' in auto2.iloc[row,column]:
+                    newstr = '['+auto2.iloc[row,1]+']'
+#                     print(newstr)
+                    auto2.iloc[row,1] = newstr
+                    flag1 = 1
+                elif '半AUTO' in auto2.iloc[row,column]:
                     newstr = '['+auto2.iloc[row,1]+']'
 #                     print(newstr)
                     auto2.iloc[row,1] = newstr
