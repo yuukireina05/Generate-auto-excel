@@ -12,7 +12,7 @@ import numpy as np
 
 Filename = '三阶段作业收集 (4).xlsx'
 
-df = pd.read_excel(Filename, engine = 'openpyxl')
+df = pd.read_excel(Filename)
 
 # 提取所有含auto刀作业的行
 auto = df[df['Unnamed: 1'].str.contains('at|bt|ct', na=False,case=False)]
