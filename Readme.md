@@ -4,7 +4,7 @@
 
 其中编号带中括号的表示该刀型为半auto刀（从文档中读取出来的，若无"半auto"则默认为auto刀）
 
-![image-20210803101643388](C:\Users\17737\AppData\Roaming\Typora\typora-user-images\image-20210803101643388.png)
+![image-20210803101643388](https://raw.githubusercontent.com/yuukireina05/picture-repository/main/image-20210803101643388.png)
 
 ![image-20210720112745500](https://raw.githubusercontent.com/yuukireina05/picture-repository/main/image-20210720112745500.png)
 
